@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive blog web site</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html" class="nav_logo"> EGATOR</a>
+            <ul class="nav_items">
+                <li > <a href="blog.html"> blogs </a></li>
+                <li > <a href="about.html"> about </a></li>
+                <li > <a href="services.html"> services </a></li>
+                <li > <a href="contact.html"> contacts </a></li>
+                <li > <a href="signin.html"> signin </a></li>
+                <li class="nav_profile"> 
+                    <div class="avatar">
+                        <img src="./img/images.jpeg">
+                        </div>
+                
+                        <ul>
+                            <li><a href="dashboard.html"> dashboards</a></li>
+                            <li><a href="logout.html"> logout</a></li>
+                        </ul>
+
+                    </div>
+                   
+                <li>
+                    <button id="open_nav-btn"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" id="menu">
+                        <path fill="#000" d="M8 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
+                      </svg></button>
+                    <button id="close_nav-btn"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" id="close">
+                        <path fill="#000" d="M7.05 7.05a1 1 0 0 0 0 1.414L10.586 12 7.05 15.536a1 1 0 1 0 1.414 1.414L12 13.414l3.536 3.536a1 1 0 0 0 1.414-1.414L13.414 12l3.536-3.536a1 1 0 0 0-1.414-1.414L12 10.586 8.464 7.05a1 1 0 0 0-1.414 0Z"></path>
+                      </svg></button>
+                </li>
+                <div>
+               
+            </div>
+            </ul>
+          
+        </div>
+    </nav>
+
+<section class="form_section">
+    <div class="container form_section-container">
+        <h2> Add category</h2>
+        <div class="alert_message error">
+            <p> This is a error message</p>
+        </div>
+        <form action="" enctype="multipart/form-data" >
+            <input type="text" placeholder="title">
+            <textarea rows="4" placeholder="description"> </textarea>
+           
+            <button type="submit" style="background-color: #749ac3; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease;">
+                Add category
+              </button>
+              <small style="font-size: 14px; color: #555; font-family: Arial, sans-serif;">
+               Don't have an account? 
+                <a href="signout.html" style="color: #007bff; text-decoration: none; font-weight: bold;">Sign In</a>
+              </small>
+              
+            </input> 
+           </div>
+        </form>
+    </div>
+</section>
+</body>
+</html>
